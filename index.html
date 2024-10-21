@@ -11,20 +11,23 @@
 <body>
 <!--Header-->
 <header class="header">
-    <div class="header__inner">
-        <img src="img/header-logo.svg" alt="DiGi - company logo">
-        <img src="img/menu-button.svg" alt="Menu button">
+    <div class="container">
+        <div class="header__content">
+            <img src="img/header-logo.svg" alt="DiGi - company logo">
+            <img src="img/menu-button.svg" alt="Menu button">
+        </div>
     </div>
 </header>
+
 <!--Intro-->
 <div class="intro">
-    <div class="intro__inner">
+    <div class="container">
         <div class="intro__content">
-            <h1 class="intro-content__title">МИСЛИ <br>
+            <h1 class="intro__content-title">МИСЛИ <br>
                 ГЛОБАЛЬНО</h1>
-            <p class="intro-content__text">Di Gі — це діджитал агенція повного циклу,
+            <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
                 спрямована на найкращий
-                <br>результат наших клієнтів в маркетингу,
+                результат наших клієнтів в маркетингу,
                 продажах та управленні</p>
             <a href="#" class="btn">детальніше</a>
             <div class="slider">
@@ -32,8 +35,8 @@
                 <input type="radio" name="slider" id="slide_2" checked>
                 <input type="radio" name="slider" id="slide_3">
             </div>
-        </div>
-    </div>
+        </div><!--/.intro__content-->
+    </div><!--/.container-->
     <div class="swipe-arrows">
         <a href="#" class="arrow-btn">
             <span class="left-arrow"></span>
@@ -42,86 +45,171 @@
             <span class="right-arrow"></span>
         </a>
     </div>
-</div> <!--/.intro-->
+</div><!--/.intro-->
 
 <!--Promo-->
 <div class="promo">
-    <div class="promo__inner">
-        <div class="promo__inner-text">
-            <h5>
-                Ви полюбите нас з першої зустрічі!
-            </h5>
+    <div class="container">
+        <div class="promo__content">
+            <div class="promo__content-text">
+                <h5>
+                    Ви полюбите нас з першої зустрічі!
+                </h5>
+                <p>
+                    Ми надаємо комплексний підхід до просування
+                    компанії, продуктів та послуг в цифровій сфері.
+                </p>
+            </div>
+            <div class="promo__content-btn">
+                <a href="#" class="btn btn-cream">передзвоніть мені</a>
+            </div>
+        </div>
+    </div><!--/.container-->
+</div><!--/.promo-->
+
+<!--Services-->
+<section class="services">
+    <div class="services__content">
+        <div class="services__content-text">
+            <h1>Сервіс</h1>
+            <h2>
+                Від ідеї до незабутнього та
+                вимірюваного результату.
+            </h2>
             <p>
-                Ми надаємо комплексний підхід до просування
-                компанії, продуктів та послуг в цифровій сфері.
+                Інтеграція бездоганного виробництва, передових технологій
+                та ретельного вимірювання продуктивності
             </p>
         </div>
-        <div class="promo__inner-btn">
-            <a href="#" class="btn btn-cream">передзвоніть мені</a>
+        <div class="services__content-enum">
+            <div class="services__item-1">
+                <img class="item-icon" src="img/services/strategy-icon.png" alt="">
+                <h1>стратегія</h1>
+                <p>Створимо унікальну та зручну стратегію</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-2">
+                <img class="item-icon" src="img/services/analize-icon.png" alt="">
+                <h1>аналіз</h1>
+                <p>Створимо унікальний та зручний аналіз</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-3">
+                <img class="item-icon" src="img/services/social-network-icon.png" alt="">
+                <h1>соц мережі</h1>
+                <p>Створимо унікальні та зручні соцільні мережі</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-4">
+                <img class="item-icon" src="img/services/development-icon.png" alt="">
+                <h1>розвиток</h1>
+                <p>Створимо унікальний та зручний розвиток</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-5">
+                <img class="item-icon" src="img/services/content-icon.png" alt="">
+                <h1>контент</h1>
+                <p>Створимо унікальний та зручний контент</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-6">
+                <img class="item-icon" src="img/services/design-icon.png" alt="">
+                <h1>дизайн UX</h1>
+                <p>Створимо унікальний та зручний дизайн</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-7">
+                <img class="item-icon" src="img/services/target-reclam-icon.png" alt="">
+                <h1>таргетована реклама</h1>
+                <p>Створимо унікальну таргетовану рекламу</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-8"><img class="item-icon" src="img/services/product-icon.png" alt="">
+                <h1>продукт</h1>
+                <p>Створимо унікальний та зручний продукт</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
         </div>
-    </div>
-</div> <!--/.promo-->
+    </div><!--/.services__content-->
+</section>
 
-<!--Service-->
-<div class="service">
-    <div class="service__text">
-        <h1>Сервіс</h1>
-        <h2>
-            Від ідеї до незабутнього та
-            вимірюваного результату.
-        </h2>
-        <p>
-            Інтеграція бездоганного виробництва, передових технологій
-            та ретельного вимірювання продуктивності
-        </p>
-    </div>
-    <div class="service__grid-cell1 item">
-        <img class="item-icon" src="img/services/strategy-icon.png" alt="">
-        <h1>стратегія</h1>
-        <p>Створимо унікальну та зручну стратегію</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell2 item">
-        <img class="item-icon" src="img/services/analize-icon.png" alt="">
-        <h1>аналіз</h1>
-        <p>Створимо унікальний та зручний аналіз</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell3 item">
-        <img class="item-icon" src="img/services/social-network-icon.png" alt="">
-        <h1>соц мережі</h1>
-        <p>Створимо унікальні та зручні соцільні мережі</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell4 item">
-        <img class="item-icon" src="img/services/development-icon.png" alt="">
-        <h1>розвиток</h1>
-        <p>Створимо унікальний та зручний розвиток</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell5 item">
-        <img class="item-icon" src="img/services/content-icon.png" alt="">
-        <h1>контент</h1>
-        <p>Створимо унікальний та зручний контент</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell6 item">
-        <img class="item-icon" src="img/services/design-icon.png" alt="">
-        <h1>дизайн UX</h1>
-        <p>Створимо унікальний та зручний дизайн</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell7 item">
-        <img class="item-icon" src="img/services/target-reclam-icon.png" alt="">
-        <h1>таргетована реклама</h1>
-        <p>Створимо унікальну таргетовану рекламу</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a>
-    </div>
-    <div class="service__grid-cell8 item">
-        <img class="item-icon" src="img/services/product-icon.png" alt="">
-        <h1>продукт</h1>
-        <p>Створимо унікальний та зручний продукт</p>
-        <a class="item-btn" href="#">детальніше &#8594;</a></div>
-</div><!--/.service-->
+<!--Portfolio-->
+<section class="portfolio">
+    <div class="container">
+        <h1 class="portfolio__title">Наші Проєкти</h1>
+        <div class="portfolio__content">
+            <ul class="portfolio__items">
+                <li>
+                    <img class="portfolio__item-photo"
+                         src="img/portfolio/boutique.png" alt="">
+                    <div class="portfolio__icons-container">
+                        <div class="portfolio__icons">
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/info-button.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/search-botton.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        Lalique бутик
+                    </p>
+                </li>
+                <li>
+                    <img class="portfolio__item-photo"
+                         src="img/portfolio/house.png" alt="">
+                    <div class="portfolio__icons-container">
+                        <div class="portfolio__icons">
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/info-button.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/search-botton.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        Будівництво домів
+                    </p>
+                </li>
+                <li>
+                    <img class="portfolio__item-photo"
+                         src="img/portfolio/coffee-house.png" alt="">
+                    <div class="portfolio__icons-container">
+                        <div class="portfolio__icons">
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/info-button.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/search-botton.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        Кавʼярня
+                    </p>
+                </li>
+                <li>
+                    <img class="portfolio__item-photo"
+                         src="img/portfolio/beautiful-photo.png" alt="">
+                    <div class="portfolio__icons-container">
+                        <div class="portfolio__icons">
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/info-button.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img class="portfolio-icon" src="img/search-botton.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        Унікальні тури
+                    </p>
+                </li>
+            </ul>
+        </div><!--/.portfolio__content-->
+    </div><!--/.container-->
+</section>
 </body>
 </html>
