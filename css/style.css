@@ -215,7 +215,7 @@ ul, ol {
 }
 
 .btn-cream {
-    background-color:#F9F6E5;
+    background-color: #F9F6E5;
     color: #2B4074;
 }
 
@@ -298,6 +298,7 @@ ul, ol {
         align-items: center;
         justify-content: center;
     }
+
     .services__content-text {
         max-width: 100%;
         width: 100%;
@@ -329,7 +330,7 @@ ul, ol {
     outline-offset: -9px;
 }
 
-[class^="services__item-"]:hover img{
+[class^="services__item-"]:hover img {
     margin-top: 25px;
     transition: .3s;
 }
@@ -409,7 +410,6 @@ ul, ol {
 
 .portfolio__title:after {
     margin-top: 24px;
-    /*margin: 24px auto 0 auto;*/
     content: "";
     display: block;
     width: 100px;
@@ -421,26 +421,23 @@ ul, ol {
     padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .portfolio__items li {
-    margin-top: 40px;
-    padding-left: 11px;
-    padding-right: 11px;
-    width: 268px;
-    height: 239px;
-    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    margin: 40px 0 30px;
     text-align: center;
     position: relative;
 }
 
 .portfolio__item-photo {
-    width: 100%;
-    height: 100%;
+    width: 268px;
+    height: 239px;
     object-fit: cover;
     border-radius: 4px;
 }
@@ -457,20 +454,20 @@ ul, ol {
 }
 
 .portfolio__icons-container {
-    width: calc(100% - 44px);
-    height: calc(100% - 22px);
-    display: none;
+    width: calc(268px - 22px);
+    height: calc(239px - 22px);
+    display: flex;
     position: absolute;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(249, 246, 229, 0.8);
     border-radius: 4px;
+    opacity: 0;
 }
 
-.portfolio__items li:hover .portfolio__icons-container {
-    display: flex;
-    justify-content: center;
+.portfolio__icons-container:hover {
+    opacity: 1;
 }
 
 .portfolio__icons {
@@ -481,4 +478,31 @@ ul, ol {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     gap: 10px;
+}
+
+/* Team */
+.team {
+    width: 100%;
+    min-height: 580px;
+
+    background-color: white;
+}
+
+.team__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.team__content-img {
+    min-width: 460px;
+    min-height: 420px;
+}
+
+.video-promo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
 }
