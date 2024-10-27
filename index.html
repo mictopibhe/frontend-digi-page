@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
+    <meta property="og:title"
+          content="Діджитал агенція Di Gі"/>
+    <meta property="og:description"
+          content="Di Gі — це діджитал агенція повного циклу,
+                спрямована на найкращий
+                результат наших клієнтів в маркетингу,
+                продажах та управленні"/>
+    <meta property="og:image" content="img/og-intro.png">
+    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
     <title>DiGi - digital agency</title>
 </head>
 <body>
@@ -23,25 +35,42 @@
 <div class="intro">
     <div class="container">
         <div class="intro__content">
-            <h1 class="intro__content-title">МИСЛИ <br>
-                ГЛОБАЛЬНО</h1>
-            <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
-                спрямована на найкращий
-                результат наших клієнтів в маркетингу,
-                продажах та управленні</p>
-            <a href="#" class="btn">детальніше</a>
-            <div class="slider">
-                <input type="radio" name="slider" id="slide_1">
-                <input type="radio" name="slider" id="slide_2" checked>
-                <input type="radio" name="slider" id="slide_3">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
             </div>
         </div><!--/.intro__content-->
     </div><!--/.container-->
     <div class="swipe-arrows">
-        <a href="#" class="arrow-btn">
+        <a href="#" class="arrow-btn left-arrow-btn">
             <span class="left-arrow"></span>
         </a>
-        <a href="#" class="arrow-btn">
+        <a href="#" class="arrow-btn right-arrow-btn">
             <span class="right-arrow"></span>
         </a>
     </div>
@@ -56,8 +85,8 @@
                     Ви полюбите нас з першої зустрічі!
                 </h5>
                 <p>
-                    Ми надаємо комплексний підхід до просування компанії, продуктів <br>
-                    та послуг в цифровій сфері.
+                    Ми надаємо комплексний підхід до просування компанії,<br>
+                    продуктів та послуг в цифровій сфері.
                 </p>
             </div>
             <div class="promo__content-btn">
@@ -77,7 +106,7 @@
                 вимірюваного результату.
             </h2>
             <p>
-                Інтеграція бездоганного виробництва, передових технологій
+                Інтеграція бездоганного виробництва, передових технологій<br>
                 та ретельного вимірювання продуктивності
             </p>
         </div>
@@ -129,7 +158,7 @@
                 <p>Створимо унікальний та зручний продукт</p>
                 <a class="item-btn" href="#">детальніше &#8594;</a>
             </div>
-        </div>
+        </div><!--/.services__content-enum-->
     </div><!--/.services__content-->
 </section>
 
@@ -233,7 +262,7 @@
                     потрібно розвиватись, тому ми постійно шукаємо<br>
                     способи, як стати краще в тому, що ми робимо.<br>
                 </p>
-                <a class="btn" href="#">дивитись відео</a>
+                <a class="btn" href="#" id="team-btn">дивитись відео</a>
             </div>
         </div><!--/.team__content-->
     </div><!--/.container-->
@@ -394,6 +423,154 @@
                     </p>
                 </div>
             </div><!--/.news__desktop-grid-->
+            <div class="news__tablet-grid">
+                <div class="news-item-1">
+                    <img class="news__item-bg" src="img/news/news-1.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        3Д в брендингу
+                    </p>
+                </div>
+                <div class="news-item-3">
+                    <img class="news__item-bg" src="img/news/news-3.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Графіка
+                    </p>
+                </div>
+                <div class="news-item-6">
+                    <img class="news__item-bg" src="img/news/news-6.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Погляд зі сторони
+                    </p>
+                </div>
+                <div class="news-item-2">
+                    <img class="news__item-bg" src="img/news/news-2.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Контекстна реклама
+                    </p>
+                </div>
+                <div class="news-item-4">
+                    <img class="news__item-bg" src="img/news/news-4.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Корпоративна культура
+                    </p>
+                </div>
+                <div class="news-item-5">
+                    <img class="news__item-bg" src="img/news/news-5.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Унікальний дизайн
+                    </p>
+                </div>
+                <div class="news-item-7">
+                    <img class="news__item-bg" src="img/news/news-7.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Соц мережі та їх користь
+                    </p>
+                </div>
+                <div class="news-item-8">
+                    <img class="news__item-bg" src="img/news/news-8.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Ексклюзивність
+                    </p>
+                </div>
+            </div><!--/.news__tablet-grid-->
+            <div class="news__mobile-grid">
+                <div class="news-item-1">
+                    <img class="news__item-bg" src="img/news/news-1.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        3Д в брендингу
+                    </p>
+                </div>
+                <div class="news-item-2">
+                    <img class="news__item-bg" src="img/news/news-2.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Контекстна реклама
+                    </p>
+                </div>
+                <div class="news-item-3">
+                    <img class="news__item-bg" src="img/news/news-3.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Графіка
+                    </p>
+                </div>
+                <div class="news-item-4">
+                    <img class="news__item-bg" src="img/news/news-4.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Корпоративна культура
+                    </p>
+                </div>
+                <div class="news-item-5">
+                    <img class="news__item-bg" src="img/news/news-5.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Унікальний дизайн
+                    </p>
+                </div>
+                <div class="news-item-6">
+                    <img class="news__item-bg" src="img/news/news-6.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Погляд зі сторони
+                    </p>
+                </div>
+                <div class="news-item-7">
+                    <img class="news__item-bg" src="img/news/news-7.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Соц мережі та їх користь
+                    </p>
+                </div>
+                <div class="news-item-8">
+                    <img class="news__item-bg" src="img/news/news-8.png" alt="">
+                    <a href="#">
+                        <img class="news__info-icon" src="img/white-info.svg" alt="">
+                    </a>
+                    <p>
+                        Ексклюзивність
+                    </p>
+                </div>
+            </div><!--/.news__mobile-grid-->
         </div><!--/.news__inner-->
     </div><!--/.container-->
 </section>
@@ -405,7 +582,7 @@
             <img src="img/quotes.svg" alt="">
             <div class="testimonial__inner-content">
                 <p class="testimonial-quotation">
-                    Якщо треба створити або підняти імідж компанії, <br>
+                    Якщо треба створити або підняти імідж компанії, <br id="mobile-br">
                     то
                     <span>
                         діджитал-маркетинг
@@ -520,9 +697,28 @@
 <div class="turn-up">
     <div class="container">
         <div class="turn-up__content">
-            <a href="#">нагору <img src="/img/turn-up-arrow.svg" alt="Turn up arrow"></a>
+            <a href="#">нагору <br> <img src="img/turn-up-arrow.svg" alt="Turn up arrow"></a>
         </div>
     </div>
 </div>
+<script src="owlcarousel/js/jquery-3.7.1.min.js"></script>
+<script src="owlcarousel/js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        const owl = $(".owl-carousel").owlCarousel({
+            loop: true,
+            items: 1
+        });
+        $('.left-arrow-btn').click(function(e) {
+            e.preventDefault();
+            owl.trigger('prev.owl.carousel');
+        });
+
+        $('.right-arrow-btn').click(function(e) {
+            e.preventDefault();
+            owl.trigger('next.owl.carousel');
+        });
+    });
+</script>
 </body>
 </html>
