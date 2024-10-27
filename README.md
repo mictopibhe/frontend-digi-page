@@ -2,7 +2,7 @@
 
 ![Project Screenshot](https://mictopibhe.github.io/frontend-digi-page/preview.png) <!-- Replace with a link to your screenshot if available -->
 
-**DI GI Digital Agency** is a landing page for a digital agency, created as part of a practical assignment in the IT school [Sh++](https://ithillel.ua/). This project is built using HTML and CSS only, without JavaScript. The site is fully responsive and optimized for screen sizes ranging from 320px to 1440px.
+**DI GI Digital Agency** is a landing page for a digital agency, created as part of a practical assignment in the IT school [Sh++](https://programming.org.ua/en). This project is built using HTML and CSS only, without JavaScript. The site is fully responsive and optimized for screen sizes ranging from 320px to 1440px.
 
 ## 🚀 Live Demo
 
