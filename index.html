@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
+    <meta property="og:title"
+          content="Діджитал агенція Di Gі"/>
+    <meta property="og:description"
+          content="Di Gі — це діджитал агенція повного циклу,
+                спрямована на найкращий
+                результат наших клієнтів в маркетингу,
+                продажах та управленні"/>
+    <meta property="og:image" content="img/og-intro.png">
+    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
     <title>DiGi - digital agency</title>
 </head>
 <body>
@@ -23,25 +35,42 @@
 <div class="intro">
     <div class="container">
         <div class="intro__content">
-            <h1 class="intro__content-title">МИСЛИ <br>
-                ГЛОБАЛЬНО</h1>
-            <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
-                спрямована на найкращий<br>
-                результат наших клієнтів в маркетингу,
-                продажах та управленні</p>
-            <a href="#" class="btn" id="intro-btn">детальніше</a>
-            <div class="slider">
-                <input type="radio" name="slider" id="slide_1">
-                <input type="radio" name="slider" id="slide_2" checked>
-                <input type="radio" name="slider" id="slide_3">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
+                <div class="item">
+                    <h1 class="intro__content-title">МИСЛИ <br>
+                        ГЛОБАЛЬНО</h1>
+                    <p class="intro__content-text">Di Gі — це діджитал агенція повного циклу,
+                        спрямована на найкращий<br>
+                        результат наших клієнтів в маркетингу,
+                        продажах та управленні</p>
+                    <a href="#" class="btn" id="intro-btn">детальніше</a>
+                </div>
             </div>
         </div><!--/.intro__content-->
     </div><!--/.container-->
     <div class="swipe-arrows">
-        <a href="#" class="arrow-btn">
+        <a href="#" class="arrow-btn left-arrow-btn">
             <span class="left-arrow"></span>
         </a>
-        <a href="#" class="arrow-btn">
+        <a href="#" class="arrow-btn right-arrow-btn">
             <span class="right-arrow"></span>
         </a>
     </div>
@@ -81,55 +110,55 @@
                 та ретельного вимірювання продуктивності
             </p>
         </div>
-            <div class="services__content-enum">
-                <div class="services__item-1">
-                    <img class="item-icon" src="img/services/strategy-icon.png" alt="">
-                    <h1>стратегія</h1>
-                    <p>Створимо унікальну та зручну стратегію</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-2">
-                    <img class="item-icon" src="img/services/analize-icon.png" alt="">
-                    <h1>аналіз</h1>
-                    <p>Створимо унікальний та зручний аналіз</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-3">
-                    <img class="item-icon" src="img/services/social-network-icon.png" alt="">
-                    <h1>соц мережі</h1>
-                    <p>Створимо унікальні та зручні соцільні мережі</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-4">
-                    <img class="item-icon" src="img/services/development-icon.png" alt="">
-                    <h1>розвиток</h1>
-                    <p>Створимо унікальний та зручний розвиток</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-5">
-                    <img class="item-icon" src="img/services/content-icon.png" alt="">
-                    <h1>контент</h1>
-                    <p>Створимо унікальний та зручний контент</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-6">
-                    <img class="item-icon" src="img/services/design-icon.png" alt="">
-                    <h1>дизайн UX</h1>
-                    <p>Створимо унікальний та зручний дизайн</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-7">
-                    <img class="item-icon" src="img/services/target-reclam-icon.png" alt="">
-                    <h1>таргетована реклама</h1>
-                    <p>Створимо унікальну таргетовану рекламу</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-                <div class="services__item-8"><img class="item-icon" src="img/services/product-icon.png" alt="">
-                    <h1>продукт</h1>
-                    <p>Створимо унікальний та зручний продукт</p>
-                    <a class="item-btn" href="#">детальніше &#8594;</a>
-                </div>
-            </div><!--/.services__content-enum-->
+        <div class="services__content-enum">
+            <div class="services__item-1">
+                <img class="item-icon" src="img/services/strategy-icon.png" alt="">
+                <h1>стратегія</h1>
+                <p>Створимо унікальну та зручну стратегію</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-2">
+                <img class="item-icon" src="img/services/analize-icon.png" alt="">
+                <h1>аналіз</h1>
+                <p>Створимо унікальний та зручний аналіз</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-3">
+                <img class="item-icon" src="img/services/social-network-icon.png" alt="">
+                <h1>соц мережі</h1>
+                <p>Створимо унікальні та зручні соцільні мережі</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-4">
+                <img class="item-icon" src="img/services/development-icon.png" alt="">
+                <h1>розвиток</h1>
+                <p>Створимо унікальний та зручний розвиток</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-5">
+                <img class="item-icon" src="img/services/content-icon.png" alt="">
+                <h1>контент</h1>
+                <p>Створимо унікальний та зручний контент</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-6">
+                <img class="item-icon" src="img/services/design-icon.png" alt="">
+                <h1>дизайн UX</h1>
+                <p>Створимо унікальний та зручний дизайн</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-7">
+                <img class="item-icon" src="img/services/target-reclam-icon.png" alt="">
+                <h1>таргетована реклама</h1>
+                <p>Створимо унікальну таргетовану рекламу</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+            <div class="services__item-8"><img class="item-icon" src="img/services/product-icon.png" alt="">
+                <h1>продукт</h1>
+                <p>Створимо унікальний та зручний продукт</p>
+                <a class="item-btn" href="#">детальніше &#8594;</a>
+            </div>
+        </div><!--/.services__content-enum-->
     </div><!--/.services__content-->
 </section>
 
@@ -672,5 +701,24 @@
         </div>
     </div>
 </div>
+<script src="owlcarousel/js/jquery-3.7.1.min.js"></script>
+<script src="owlcarousel/js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        const owl = $(".owl-carousel").owlCarousel({
+            loop: true,
+            items: 1
+        });
+        $('.left-arrow-btn').click(function(e) {
+            e.preventDefault();
+            owl.trigger('prev.owl.carousel');
+        });
+
+        $('.right-arrow-btn').click(function(e) {
+            e.preventDefault();
+            owl.trigger('next.owl.carousel');
+        });
+    });
+</script>
 </body>
 </html>

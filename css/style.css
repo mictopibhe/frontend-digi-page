@@ -97,6 +97,12 @@ ul, ol {
     }
 }
 
+.owl-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .intro__content {
     width: 100%;
     display: flex;
@@ -496,6 +502,9 @@ ul, ol {
     }
     @media (max-width: 639px) {
         margin-top: -85px;
+    }
+    @media (min-width: 440px) and (max-width: 639px) {
+        margin-top: -65px;
     }
 }
 
@@ -1121,7 +1130,7 @@ ul, ol {
     flex-wrap: wrap;
     align-items: center;
 
-    @media (min-width: 1025px) {
+    @media (min-width: 1440px) {
         display: flex;
     }
 }
@@ -1129,11 +1138,10 @@ ul, ol {
 .news__desktop-grid {
     margin-top: 96px;
     max-width: 932px;
-    max-height: 1038px;
+    max-height: 1088px;
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 
     @media (min-width: 1024px) and (max-width: 1439px) {
